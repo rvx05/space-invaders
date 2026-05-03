@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Bullet object
   class Bullet {
     constructor(x, y) {
-      this.width = 2000;
+      this.width = 5;
       this.height = 10;
       this.x = x + 20;
       this.y = y;
