@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Cosmic Alien";
-  src: url("ca-webfont.woff2") format("woff2"),
-    url("ca-webfont.woff") format("woff");
+  src: url("resources/ca-webfont.woff2") format("woff2"),
+    url("resources/ca-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

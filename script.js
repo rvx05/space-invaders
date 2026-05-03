@@ -35,15 +35,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Images for enemies and the player ships
   const enemyImage = new Image();
-  enemyImage.src = "enemy.jpg";
+  enemyImage.src = "resources/enemy.jpg";
 
   const playerImage = new Image();
-  playerImage.src = "player.jpg";
+  playerImage.src = "resources/player.jpg";
 
   // Sound effects for shooting, destroying enemy ships and game over
-  const shootSound = new Audio("shoot.wav");
-  const explosionSound = new Audio("explosion.wav");
-  const gameOverSound = new Audio("game_over.wav");
+  const shootSound = new Audio("resources/shoot.wav");
+  const explosionSound = new Audio("resources/explosion.wav");
+  const gameOverSound = new Audio("resources/game_over.wav");
 
   // Player object
   class Player {
